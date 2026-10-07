@@ -1,4 +1,6 @@
-# 🥞 CentralComida
+# 🥞 Central Comida
+
+![asd]([http://url/to/img.png](https://cdn.discordapp.com/attachments/764605116094480425/1557250265307029524/image.png?backend=b2&ex=6ac71dd3&is=6ac5cc53&hm=d9ffea7428b6c688782960e4b04782574142331eeaab3b60c0aa3a32c1c7afee&))
 
 ## 📖 Sobre o Projeto
 
@@ -22,34 +24,16 @@ Além disso, o projeto pode contribuir para:
 
 ## ✨ Funcionalidades
 
-* 🔎 Buscar receitas de forma rápida.
-* 🥕 Selecionar os ingredientes disponíveis.
+
+
 * 🍽️ Encontrar receitas com base nos ingredientes selecionados.
 * 📋 Visualizar os ingredientes necessários para cada receita.
 * 👨‍🍳 Consultar o modo de preparo das receitas.
+* 🥕 Selecionar os ingredientes disponíveis.
 * ⭐ Possibilidade de favoritar receitas.
+* 🔎 Buscar receitas de forma rápida.
+* ↔️ Substituição de ingredientes para maior liberdade criativa.
 * 📱 Interface simples e intuitiva.
-
-
----
-
-## ⚙️ Funcionalidades Principais
-
-
-O fluxo principal da aplicação é simples:
-
-O usuário acessa a aplicação.
-
-Seleciona os ingredientes que possui.
-
-A aplicação analisa as receitas disponíveis.
-
-São apresentadas receitas que podem ser preparadas com os ingredientes selecionados.
-
-O usuário escolhe uma receita.
-
-A aplicação apresenta os ingredientes e o modo de preparo.
-
 
 ---
 
@@ -117,7 +101,10 @@ flowchart LR
 ---
 ## Metodologia
 
-**Kanban** : asdasdadasd12124234234234242
+* **Kanban**
+  : Pela facilidade de compreender as adições necessárias ao site.
+* **Espiral**
+  : Pela eficácia de resolver problemas já existentes no projeto.
 ---
 
 ## 👥 Equipe
