@@ -1,9 +1,5 @@
 # 🥞 Central Comida
-
-
-
-<!-- kkkkkkkkkk vsfd o filho da puta taca a imagem do discord mano -->
-<!-- krl mano foi mal eu so printei e colei no discord pra copiar o link viado descupa -->
+<!-- direitos trans sao direitos humanos 🏳️‍⚧️ -->
 
 ## 📖 Sobre o Projeto
 
@@ -43,6 +39,38 @@ Além disso, o projeto pode contribuir para:
 ## Diagramas de sequência e de caso de uso
 
 ```mermaid
+sequenceDiagram
+    actor Usuario as  Usuário
+    participant App as  Frontend
+    participant API as  Backend
+    participant BD as  Banco de Dados
+
+    Usuario->>App: Acessa o aplicativo
+    App-->>Usuario: Exibe tela inicial
+
+    Usuario->>App: Seleciona ingredientes
+    App-->>Usuario: Exibe ingredientes selecionados
+
+    Usuario->>App: Solicita busca de receitas
+    App->>API: Envia ingredientes selecionados
+
+    API->>BD: Consulta receitas compatíveis
+    BD-->>API: Retorna receitas encontradas
+
+    API-->>App: Retorna lista de receitas
+    App-->>Usuario: Exibe receitas compatíveis
+
+    Usuario->>App: Seleciona uma receita
+    App->>API: Solicita detalhes da receita
+
+    API->>BD: Consulta detalhes
+    BD-->>API: Retorna ingredientes e preparo
+
+    API-->>App: Retorna detalhes da receita
+    App-->>Usuario: Exibe receita e modo de preparo
+```
+
+```mermaid
 flowchart LR
     Usuario((👤 Usuário))
 
@@ -70,6 +98,9 @@ flowchart LR
 ---
 ## 🌐Interfaces
 <img width="2495" height="816" alt="image" src="https://github.com/user-attachments/assets/602de8f8-e63e-49d2-baf4-3d160ac31c42" />
+
+<img width="810" height="805" alt="image" src="https://github.com/user-attachments/assets/7896781e-8f0f-443e-ad0f-fa65a6674f07" />
+
 <img width="2494" height="815" alt="image" src="https://github.com/user-attachments/assets/3173dd2d-5390-4148-af74-0f9a867c3850" />
 (interfaces ainda em andamento)
 
@@ -97,16 +128,16 @@ flowchart LR
 
 ## 🗓️ Roadmap do MVP
 
-- [ ] **Milestone 1: Alinhamento, Design e Base do Projeto**  
-  * Protótipo no Figma, setup da estrutura Expo/Node.js, modelagem do PostgreSQL e criação do conteúdo inicial.
-- [ ] **Milestone 2: Núcleo do Aplicativo**  
-  * Login com Firebase, mapa de fases e motor visual dos 3 tipos de exercícios.
-- [ ] **Milestone 3: Gamificação e Sandbox Python**  
-  * Contador de Streaks, barra de progresso e integração do Pyodide (WASM) para execução de código.
-- [ ] **Milestone 4: Tutor IA**  
-  * Engenharia de prompts e integração da LLM para suporte dinâmico no player de exercícios.
-- [ ] **Milestone 5: Testes e Lançamento**  
-  * Correções de bugs, polimento de UI/UX, deploy da infraestrutura e publicação da versão de teste.
+- [ ] **1: Alinhamento, Design e Base do Projeto**  
+  * Definição dos requisitos, criação do protótipo no Figma, estruturação do projeto, modelagem do banco de dados e cadastro do conteúdo inicial de receitas e ingredientes.
+- [ ] **2: Núcleo do Aplicativo**  
+  * Desenvolvimento da tela inicial, catálogo de ingredientes, seleção dos ingredientes disponíveis e implementação do sistema de busca e filtragem de receitas.
+- [ ] **3: Sistema de Receitas**  
+  * Implementação da exibição das receitas encontradas, detalhes dos ingredientes necessários, modo de preparo, tempo de preparo e indicação de compatibilidade com os ingredientes selecionados.
+- [ ] **4: Experiência do Usuário**  
+  * Implementação de favoritos, filtros por categorias e melhorias na navegação, além de ajustes de UI/UX para tornar a descoberta de receitas mais rápida e intuitiva.
+- [ ] **5: Testes e Lançamento do MVP**  
+  * Realização de testes funcionais, correção de bugs, validação do fluxo principal, polimento da interface, documentação e publicação da primeira versão do sistema.
 ---
 ## Metodologia
 
