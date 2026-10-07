@@ -1,6 +1,9 @@
 # 🥞 Central Comida
 
-![asd]([http://url/to/img.png](https://cdn.discordapp.com/attachments/764605116094480425/1557250265307029524/image.png?backend=b2&ex=6ac71dd3&is=6ac5cc53&hm=d9ffea7428b6c688782960e4b04782574142331eeaab3b60c0aa3a32c1c7afee&))
+
+
+<!-- kkkkkkkkkk vsfd o filho da puta taca a imagem do discord mano -->
+<!-- krl mano foi mal eu so printei e colei no discord pra copiar o link viado descupa -->
 
 ## 📖 Sobre o Projeto
 
@@ -64,6 +67,12 @@ flowchart LR
     UC6 --> UC3
 
 ```
+---
+## 🌐Interfaces
+<img width="2495" height="816" alt="image" src="https://github.com/user-attachments/assets/602de8f8-e63e-49d2-baf4-3d160ac31c42" />
+<img width="2494" height="815" alt="image" src="https://github.com/user-attachments/assets/3173dd2d-5390-4148-af74-0f9a867c3850" />
+(interfaces ainda em andamento)
+
 ---
 
 ## 🛠️ Tecnologias
