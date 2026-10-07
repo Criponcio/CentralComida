@@ -69,6 +69,7 @@ sequenceDiagram
     API-->>App: Retorna detalhes da receita
     App-->>Usuario: Exibe receita e modo de preparo
 ```
+---
 
 ```mermaid
 flowchart LR
