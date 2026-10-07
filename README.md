@@ -29,29 +29,6 @@ A plataforma pretende:
 
 ---
 
-## 📊 Pesquisa e Validação (Data-Driven)
-
-Esta seção resume a pesquisa de mercado e o feedback dos usuários reais coletados na Google Play Store (amostra de 1.472 avaliações, filtradas de 10.000 avaliações).
-
-### Palavras Chave
-![Palavras chave](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Pesquisa/palavras_chave.png)
-
-### Resultado
-![Resultado da pesquisa](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Pesquisa/grafico_sugestoes_mimo.png)
-
-### Pontos Negativos
-- 40%+ das críticas focam na restrição excessiva do plano gratuito.
-- Superficial e repetitivo para quem quer profundidade.
-
-### Pontos Positivos
-- Excelente para iniciantes absolutos.
-- Boa UI/UX.
-
-Link para pesquisa:
-https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Pesquisa/sugestoes_mimo_10000.csv
-
----
-
 ## ⚙️ Funcionalidades Principais
 
 ### 1. Autenticação e Perfil Simples
